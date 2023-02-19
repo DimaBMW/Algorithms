@@ -8,7 +8,7 @@
 using namespace std;
 //function binary search
 int binary_search(vector<int> &bin_vector, int item){
-    int low=0;                              //the variables low and high store the boundaries of the part in which the                                         search is performed
+    int low=0;                              //the variables low and high store the boundaries of the part in which the search is performed
     unsigned long hight=bin_vector.size();
     while (low<=hight) {//until this part is reduced to one element
         unsigned long mid=(low+hight)/2;//find the midbrain index element
